@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Color Palette</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Color Palette</h1>
+        <label for="hex-input">Hex Color</label>
+        <input type="text" name="hex-input" id="hex-input" value="#c6d5ac" maxlength="7">
+        <div class="toggle">
+            <p class="toggle-text" id="lighten-text">Lighten</p>
+            <div id="toggle-btn">
+                <div id="inner-circle"></div>
+            </div>
+            <p class="toggle-text unselected" id="darken-text">Darken</p>
+        </div>
+        <label for="slider" id="slider-text">0%</label>
+        <input type="range" name="slider" id="slider" min="0" max="100" value="0">
+        <div class="display-color">
+            <div class="input-color">
+                <p id="input-color-text">Input Color #c6d5ac</p>
+                <div class="box" id="input-color-box"></div>
+            </div>
+            <div class="altered-color">
+                <p id="altered-color-text">Altered Color</p>
+                <div class="box" id="altered-color-box"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
