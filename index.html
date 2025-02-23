@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
-    <link rel="stylesheet" href="style.css">
-    <title>Color Palette</title>
-</head>
-<body>
-    <div class="container">
-        <h1>Color Palette</h1>
-        <label for="hex-input">Hex Color</label>
-        <input type="text" name="hex-input" id="hex-input" value="#c6d5ac" maxlength="7">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shade Spectrum</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title-container">
+        <div class="title-text">
+          <p class="title">THE</p>
+          <p class="title">SHADE</p>
+          <p class="title">SPEC</p>
+          <p class="title">TRUM</p>
+        </div>
+      </div>
+      <div class="container">
+        <h1>Shade Spectrum</h1>
+        <div class="input-group">
+          <label for="hex-input">Hex Color</label>
+          <div class="input-container">
+            <input
+              name="hex-input"
+              id="hex-input"
+              maxlength="6"
+            />
+            <span class="hash">#</span>
+          </div>
+        </div>
         <div class="toggle">
-            <p class="toggle-text" id="lighten-text">Lighten</p>
-            <div id="toggle-btn">
-                <div id="inner-circle"></div>
-            </div>
-            <p class="toggle-text unselected" id="darken-text">Darken</p>
+          <p class="toggle-text" id="lighten-text">Lighten</p>
+          <div id="toggle-btn">
+            <div id="inner-circle"></div>
+          </div>
+          <p class="toggle-text unselected" id="darken-text">Darken</p>
         </div>
-        <label for="slider" id="slider-text">0%</label>
-        <input type="range" name="slider" id="slider" min="0" max="100" value="0">
+        <div class="slider-container">
+          <input type="range" min="0" max="100" value="50" id="slider" />
+          <p id="slider-text">50%</p>
+        </div>
+
         <div class="display-color">
-            <div class="input-color">
-                <p id="input-color-text">Input Color #c6d5ac</p>
-                <div class="box" id="input-color-box"></div>
+          <div class="input-color">
+            <p id="input-color-text">Input Color</p>
+            <div class="box" id="input-color-box">
+              <div class="color">
+                <span class="color-circle"></span>
+                <div class="color-text">#61645b</div>
+              </div>
             </div>
-            <div class="altered-color">
-                <p id="altered-color-text">Altered Color</p>
-                <div class="box" id="altered-color-box"></div>
+          </div>
+          <div class="altered-color">
+            <p id="altered-color-text">Altered Color</p>
+            <div class="box" id="altered-color-box">
+              <div class="color">
+                <span class="color-circle"></span>
+                <div class="color-text">#61645b</div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
