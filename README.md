@@ -19,7 +19,7 @@
 
 No installation needed – it's 100% online!
 
-Try it out here 👉 [Color Shift by Faraaz Ansari](https://thefaraazansari.github.io/color-shift/)
+Try it out here 👉 [Color Shift by Faraaz Ansari](https://thefaraazansari.github.io/shade-spectrum/)
 
 ## 📸 Screenshot
 
