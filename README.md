@@ -19,11 +19,11 @@
 
 No installation needed – it's 100% online!
 
-Try it out here 👉 [Color Shift by Faraaz Ansari](https://thefaraazansari.github.io/shade-spectrum/)
+Try it out here 👉 [Shade Spectrum by Faraaz Ansari](https://thefaraazansari.github.io/shade-spectrum/)
 
 ## 📸 Screenshot
 
-![Color Shift Screenshot](./screenshot.png)
+![Shade Spectrum Screenshot](./screenshot.png)
 
 ## 🎯 Who is this for?
 
